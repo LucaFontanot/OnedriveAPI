@@ -1,0 +1,24 @@
+{
+  "name": "@lucafont2/onedrive-api",
+  "version": "1.0.5",
+  "description": "Manage Onedrive Files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucafont2/OnedriveAPI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lucafont2/OnedriveAPI/issues"
+  },
+  "homepage": "https://github.com/lucafont2/OnedriveAPI#readme"
+}
