@@ -1,5 +1,7 @@
 # How to use:
 
+`npm i @lucafont2/onedrive-api`
+
 ```
 (async function() {
      var onedrive = new OnedriveApi(YOUR_REFRESH_TOKEN,async function (error,userInfo) {
