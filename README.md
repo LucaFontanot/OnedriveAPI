@@ -3,6 +3,8 @@
 `npm i @lucafont2/onedrive-api`
 
 ```
+var OnedriveApi = require("@lucafont2/onedrive-api")
+
 (async function() {
      var onedrive = new OnedriveApi(YOUR_REFRESH_TOKEN,async function (error,userInfo) {
          if (error) {
@@ -64,6 +66,8 @@ expirationDateTime | OPTIONAL - String | Link exipiration
 All functions work with async - promise
 
 ```
+var OnedriveApi = require("@lucafont2/onedrive-api")
+
 (async function() {
  var onedrive = new OnedriveApi(token,async function (error,userInfo) {
      try {
