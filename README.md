@@ -34,7 +34,7 @@ createDirectory(id,dir,name) | Create a dir in the drive | **id**: drive id, **d
 uploadFile(id,dir,name,localFile) | Upload a file | **id**: drive id, **dir**: directory to place the file, **name**: name of the file, **localFile**: string of the file path to upload | true if success |
 getFileShareLink(id,fileId,props) | Get file share link | **id**: drive id, **fileId**: uniqId of the file, **props**: props object | link String |
 
-#Objects
+# Objects
 
 ### Drive object
 Key | Value | Description
