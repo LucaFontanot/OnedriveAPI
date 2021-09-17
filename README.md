@@ -36,14 +36,14 @@ getFileShareLink(id,fileId,props) | Get file share link | **id**: drive id, **fi
 
 #Objects
 
-###Drive object
+### Drive object
 Key | Value | Description
 --- | --- | --- |
 id | String | Drive uniqId
 type | String | personal / business / documentLibrary
 owner | String | Name of owner
 
-###File or folder object
+### File or folder object
 Key | Value | Description
 --- | --- | --- |
 id | String | Element uniqId
@@ -54,7 +54,7 @@ parent | String | Parent path
 type | String | File / Folder
 typeInfo | Object | if type is File contains mime and sha1
 
-###Props object
+### Props object
 Key | Value | Description
 --- | --- | --- |
 type | String | Permission type view/edit/embed
@@ -62,7 +62,7 @@ password | OPTIONAL - String | Password protected link
 scope | OPTIONAL - String | anonymous / organization
 expirationDateTime | OPTIONAL - String | Link exipiration
 
-#Functions
+# Functions
 All functions work with async - promise
 
 ```
